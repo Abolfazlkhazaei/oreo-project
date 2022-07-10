@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: url(./images/R.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+.logo{
+    width: 100px;
+    display: flex;
+}
+nav{
+    position: absolute;
+    display: flex;
+    left: 10%;
+    top: 30px;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    font-size: large;
+}
+li{
+    position: absolute;
+    left: 90%;
+    top: 30px;
+    display: flex;
+
+}
+.user{
+    border-radius: 50%;
+    width: 30px;
+    position: absolute;
+    display: flex;
+    left: 90%;
+    top: 30px;
+}
+.menu{
+    position: absolute;
+    display: flex;
+    left: 95%;
+    padding: 0 5px;
+    top: 35px;
+    color: #fff;
+}
+/* -------main------ */
+h1{
+    color: #fff;
+    font-size: 50px;
+    position: absolute;
+    left: 10%;
+    top: 26%;
+    
+}
+p{
+    text-align: center;
+    color: #fff;
+    width: 400px;
+    position: absolute;
+    left: 10%;
+    top: 35%;
+}
+.btn1{
+    border-radius: 20px;
+    padding: 10px 30px;
+    background-color: rgba(255, 255, 255, 0.829);
+    color: black;
+    border: 1px solid #000;
+    outline: none;
+    text-decoration: none;
+    font-weight: 500;
+    font: bolder;
+    position: absolute;
+    top: 50%;
+    left: 12%;
+    font: bold;
+    box-shadow: #fff;
+    
+}
+.btn2{
+    border-radius: 20px;
+    padding: 10px 30px;
+    background-color: rgba(19, 1, 1, 0.87);
+    color: #fff;
+    border: 1px solid #fff;
+    outline: none;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    font: bold;
+    box-shadow: #fff;
+}
+
+.insta{
+   color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 95%;
+    
+    
+
+}
+.facebook{
+    color: #fff;
+    position: absolute;
+    top: 35%;
+    left: 95%;
+    
+    
+}
+.twitter{
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 95%;
+    
+}
